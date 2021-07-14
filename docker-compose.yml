@@ -2,7 +2,7 @@ version: '3'
 
 services:
   wallabot:
-    build: ./
+    # build: ./
     image: atareao/wallabot:v1.0.0
     container_name: wallabot
     restart: unless-stopped
