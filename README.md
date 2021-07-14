@@ -51,8 +51,7 @@ To install <span id="project_title">wallabot</span>, follow these steps:
 ```
 docker run -d --name=wallabot \
 -p 5000:5000 \
--v database:/app/database \
---env-file ./.env
+--env-file .env \
 atareao/wallabot:amd64
 ```
 
