@@ -3,7 +3,7 @@ version: '3'
 services:
   wallabot:
     build: ./
-    image: atareao/wallabot:amd64
+    image: atareao/wallabot:v1.0.0
     container_name: wallabot
     restart: unless-stopped
     networks:
